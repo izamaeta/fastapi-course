@@ -1,13 +1,11 @@
-# Python cache
-__pycache__/
-*.py[cod]
-
-# Virtual environments
-venv/
+﻿__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
 .venv/
-
-# OS / editor
-.DS_Store
-Thumbs.db
-.vscode/
+venv/
+.env.*
 .idea/
+.vscode/
+.DS_Store
